@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Outfit', sans-serif;
+}
+
+.contenedorUno{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.contenedorUno img{
+    width: 16%;
+    height: 2%;
+}
+
+#menu{
+    display: flex;
+    width: 64%;
+    justify-content: space-between;
+}
+
+.contenedorDos{
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.contenedorDos img{
+    width: 100%
+}
+
+.articuloUno{
+    padding: 1rem;
+}
+
+.articuloUno h4{
+    font-size: 1.5rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#normal{
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+input {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    border: 1px solid hsl(243, 87%, 12%);
+}
+
+button{
+    width: 100%;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: 1px solid hsl(224, 93%, 58%);
+    box-shadow: 2px 2px 2px rgba(136, 136, 136, 0.204);
+    padding: 1rem;
+    border-radius: 12%;
+}
+
+.contenedorTres{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.arrow{
+    width: 10%
+}
+
+.imgQuot{
+    width: 10%;
+}
+
+.desk{
+    display: none;
+}
+
+.articuloDos h4{
+    font-size: 1.3rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#Normal{
+    display: flex;
+    text-align: start;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+#cian{
+    display: flex;
+    padding: 1rem;
+    color: hsl(170, 45%, 43%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+hr{
+    background: hsl(170, 45%, 43%);
+    width: 50%;
+    margin-left: 23%;
+    margin-top: -4%;
+    border: 1px solid  hsl(170, 45%, 43%);
+}
+
+.card{
+    margin-top: 1rem;
+    padding:1rem;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+.imgQuot , #fino , #personal {
+    padding: 0.2rem;
+}
+
+#personal{
+    display: flex;
+}
+
+#columna {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    justify-content: space-around;
+}
+
+.avatar{
+    width: 12%;
+    border-radius: 60%;
+}
+
+#grueso{
+    color:hsl(243, 87%, 12%);
+    font-weight: 800;
+}
+
+#comun{
+    color:hsl(238, 22%, 44%);
+    font-size: 10px;
+}
+
+.contenedorCuatro{
+    background-color:  hsl(238, 22%, 44%);
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blanco{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#BlancoI{
+    color: white;
+    text-align: center;
+}
+
+.Mail{
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    border: 1px solid hsl(243, 87%, 12%);
+}
+
+form{
+    width: 100%;
+}
+
+.ultimoContenedor{
+    background-color: hsl(243, 87%, 12%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+}
+
+#logosChicos{
+    display: flex;
+    width: 62%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#logosChicos img{
+    width: 6%;
+}
+
+.iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.iconos i {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+.attribution{
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+    
+    .contenedorUno img{
+        width: 10%;
+    }
+
+    #menu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contenedorDos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contenedorDos img{
+        width: 60%;
+    }
+
+    .mueveJunto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .contenedorTres{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        justify-content: center;
+    }
+   
+    .mobile{
+        display: none;
+    }
+
+    #Normal {
+        display: flex;
+        text-align: start;
+        padding: 1rem;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .articuloDos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedorCuatro{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        padding: 4 rem;
+    }
+
+    .mueveJuntoDos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #BlancoI{
+        margin: auto;
+        text-align: start;
+    }
+
+    .mueveJuntoTres{
+        width: 50%;
+    }
+
+    .ultimoContenedor{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .lieaAbajo{
+        width: 28%;
+    }
+
+    .lieaAbajo hr{
+        width: 70%;
+        margin: auto;
+    }
+    
+    #logosChicos {
+        width: 54%;
+    }
+
+    .iconos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        width: 28%;
+    }
+}
